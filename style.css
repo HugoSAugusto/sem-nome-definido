@@ -33,6 +33,7 @@ body{
 /* ESQUERDO */
 #ms{
     display: flex;
+    flex-wrap: wrap;
 }
 .back-princ{
     background-color: hsl(182, 53%, 23%);
