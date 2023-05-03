@@ -19,7 +19,7 @@
 
 header{
     padding: 50px;
-    background: var(--secundary-light);
+    background-image:linear-gradient( var(--secundary-light, --secundary));
 }
 nav {
     text-align: center;
