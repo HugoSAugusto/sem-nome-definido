@@ -20,6 +20,8 @@
 header{
     padding: 50px;
     background-image:linear-gradient( var(--secundary-light, --secundary));
+    box-shadow: rgba(128, 128, 128, 0.527);
+    border-radius: 10%;
 }
 nav {
     text-align: center;
