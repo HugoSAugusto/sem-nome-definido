@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
+:root{
+    --primary:#FAB162;
+    
+    --secundary:#E08D4F;
+    --secundary-light:#F59C6C;
+
+    --tertiary:#FA7E62;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 header{
     padding: 50px;
+    background: var(--secundary-light);
 }
 nav {
     text-align: center;
