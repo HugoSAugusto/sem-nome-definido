@@ -1,13 +1,27 @@
 @charset "UTF-8";
 
+:root{
+    --primary:#eeb171;
+    --primary-ligth:#e4b685b0;
+    
+    --secundary:#E08D4F;
+    --secundary-light:#F59C6C;
 
-header{
-    padding: 50px;
+    --tertiary:#FA7E62;
 }
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 nav {
     text-align: center;
-    border-right: 10px;
-    padding-right: 80px;
+    padding-bottom: 20px;
 
 }
 
@@ -21,18 +35,32 @@ nav a{
 
 nav a:hover{
     color: black;
-    background-color: rgb(166, 235, 225);
+    background-color: var(--tertiary);
     border-radius: 20%;
 }
 
 body{
-    background-color: aliceblue;
-    margin: 3%;
+    display: block;
+    background-color: var(--primary-ligth);
+
+    text-align: center;
+
+    position: absolute;
+    
+}
+
+
+main{
+
+    padding: 5%;
+    background-color: var(--primary);
 }
 
 /* ESQUERDO */
-#ms{
+/*#ms{
     display: flex;
+    flex-wrap: wrap;
+
 }
 .back-princ{
     background-color: hsl(182, 53%, 23%);
@@ -64,20 +92,34 @@ body{
 }
 
 /* LATERAL */
-.lateral{
-    background-color: #1b5059;
-    margin-left: 5px;
-    width: 500px; 
+
+/*div.lateral{
     position: relative;
+    background-color: var(--secundary);
+    margin-top: 1%;
+    padding-right: 66.9%;
+
+    width: auto;
+    height: 200px;
 }
 
 .imag-lateral-1{
+    padding-top: 5px;
+    padding-bottom: -100px;
     width: 360px;
-    height: auto;
-    position: absolute;
-}
-.text-lateral{
+        
+    height: auto;    
+
     position: relative;
-    bottom: 50px;
 }
 
+/*TEXT IMAG LATERAL*/
+/*.text-lateral{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    text-decoration: none;
+    
+    color: white;
+    font-size: 30px;
+} 
