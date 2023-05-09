@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root{
+<<<<<<< HEAD
     --primary:#eeb171;
     --primary-ligth:#e4b685b0;
     
@@ -8,6 +9,29 @@
     --secundary-light:#F59C6C;
 
     --tertiary:#FA7E62;
+=======
+    --primary:#FAB162;
+    
+    --secundary:#E08D4F;
+    --secundary-light:#F59C6C;
+
+    --tertiary:#FA7E62;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+    padding: 50px;
+    background-image:linear-gradient( var(--secundary-light, --secundary));
+    box-shadow: rgba(128, 128, 128, 0.527);
+    border-radius: 10%;
+>>>>>>> cfa4e6aa254e4c5c83f2d9d9e29c2d2fe0e479c3
 }
 
 *,
@@ -60,7 +84,10 @@ main{
 /*#ms{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
 
+=======
+>>>>>>> cfa4e6aa254e4c5c83f2d9d9e29c2d2fe0e479c3
 }
 .back-princ{
     background-color: hsl(182, 53%, 23%);
